@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Bo-Wen Zhang">
+  <defs>
+    <linearGradient id="pfBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EEF2FF"/><stop offset="1" stop-color="#DDEBFE"/>
+    </linearGradient>
+    <linearGradient id="pfRing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366F1"/><stop offset=".5" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <clipPath id="pfClip"><circle cx="200" cy="200" r="196"/></clipPath>
+  </defs>
+  <g clip-path="url(#pfClip)">
+    <rect width="400" height="400" fill="url(#pfBg)"/>
+    <circle cx="200" cy="200" r="150" fill="#fff" opacity=".55"/>
+    <g opacity=".35" stroke="#94A3B8" stroke-width="1.5" fill="none">
+      <circle cx="200" cy="200" r="120"/><circle cx="200" cy="200" r="90"/><circle cx="200" cy="200" r="60"/>
+      <path d="M80 200h240M200 80v240"/>
+    </g>
+    <g opacity=".5">
+      <circle cx="140" cy="150" r="7" fill="#6366F1"/><circle cx="260" cy="150" r="7" fill="#8B5CF6"/>
+      <circle cx="200" cy="230" r="7" fill="#22D3EE"/><circle cx="150" cy="270" r="7" fill="#6366F1"/>
+      <circle cx="255" cy="265" r="7" fill="#22D3EE"/>
+      <g stroke="#94A3B8" stroke-width="2">
+        <path d="M140 150 260 150M140 150 200 230M260 150 200 230M200 230 150 270M200 230 255 265"/>
+      </g>
+    </g>
+    <text x="200" y="212" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="88" font-weight="800" text-anchor="middle" fill="#312E81">BW</text>
+    <text x="200" y="256" font-family="'Noto Serif SC',serif" font-size="22" font-weight="600" text-anchor="middle" fill="#4F46E5" letter-spacing="6">张博文</text>
+  </g>
+  <circle cx="200" cy="200" r="192" fill="none" stroke="url(#pfRing)" stroke-width="8"/>
+</svg>

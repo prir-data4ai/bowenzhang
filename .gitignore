@@ -1,0 +1,22 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Node / build artifacts
+node_modules/
+.sass-cache/
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Local scratch
+*.log
+*.tmp
